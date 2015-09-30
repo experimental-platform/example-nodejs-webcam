@@ -6,8 +6,8 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  var fileName = new Date().getTime();
-  exec("fswebcam ./public/" + fileName + ".jpg", function() {
+  var fileName = new Date().getTime() + ".jpg";
+  exec("fswebcam ./public/" + fileName, function() {
     response.send('<img src="' + fileName + '">');
   });
 })
