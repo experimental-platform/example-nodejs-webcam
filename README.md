@@ -1,6 +1,6 @@
 # Webcam Example for Experimental Platform
 
-[The node.js code](https://github.com/experimental-platform/example-webcam/blob/master/index.js) is easy to understand: It uses [fswebcam](http://manpages.ubuntu.com/manpages/lucid/man1/fswebcam.1.html) to capture images.
+[The node.js code](https://github.com/experimental-platform/example-webcam/blob/master/index.js) has only a few lines and is easy to understand. It uses [fswebcam](http://manpages.ubuntu.com/manpages/lucid/man1/fswebcam.1.html) to capture images.
 
 ## Requirements
 
@@ -9,7 +9,7 @@
 
 ## Installation
 
-    git clone git@github.com:experimental-platform/webcam-example.git
-    cd webcam-example
-    git remote add platform ssh://dokku@your-box.local:8022/webcam-example
+    git clone git@github.com:experimental-platform/example-webcam.git
+    cd example-webcam
+    git remote add platform ssh://dokku@your-box.local:8022/example-webcam
     git push platform master
