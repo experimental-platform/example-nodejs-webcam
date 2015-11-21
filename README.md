@@ -9,7 +9,7 @@
 
 ## Installation
 
-    git clone git@github.com:experimental-platform/example-webcam.git
+    git clone https://github.com/experimental-platform/example-webcam.git
     cd example-webcam
     git remote add platform ssh://dokku@your-box.local:8022/example-webcam
     git push platform master
